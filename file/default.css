@@ -17,37 +17,3 @@ top:80px;position:absolute;
 .hand{cursor:pointer;}
 .say{margin-left:5px;}
 .space{margin-right:150px;}
-
-.slider-container {
-    width: 100%;
-    max-width: 600px;
-    margin: 1rem auto;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .slider {
-    display: flex;
-    width: 300%;
-    animation: slide 12s infinite;
-  }
-  
-  .slider img {
-    width: 100%;
-    flex-shrink: 0;
-    object-fit: cover;
-    height: auto;
-    transition: transform 0.5s ease;
-  }
-  
-  @keyframes slide {
-    0% { transform: translateX(0); }
-    33% { transform: translateX(0); }
-    36% { transform: translateX(-100%); }
-    66% { transform: translateX(-100%); }
-    69% { transform: translateX(-200%); }
-    99% { transform: translateX(-200%); }
-    100% { transform: translateX(0); }
-  }
-  
