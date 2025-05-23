@@ -17,3 +17,14 @@ top:80px;position:absolute;
 .hand{cursor:pointer;}
 .say{margin-left:5px;}
 .space{margin-right:150px;}
+
+#wrap {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#code {
+  font-size: 1.1em;
+  padding: 1em;
+}

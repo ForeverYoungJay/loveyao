@@ -47,7 +47,7 @@
 <span class="STYLE1">已经是……</span>
                   <div id="clock"></div>
               </div>
-                <canvas id="canvas" width="1100" height="680"></canvas>
+                <canvas id="canvas" style="width: 100%; height: auto;"></canvas>
             </div>
             
         </div>
@@ -63,8 +63,8 @@
             $("#error").show();
             return false;        }
 
-        var width = canvas.width();
-        var height = canvas.height();        
+        var width = $(window).width();
+        var height = $(window).height(); 
         canvas.attr("width", width);
         canvas.attr("height", height);
         var opts = {
